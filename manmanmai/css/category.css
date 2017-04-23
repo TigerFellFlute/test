@@ -1,0 +1,52 @@
+.downList {
+  background-color: #ebebeb;
+  padding: 1px 0;
+}
+.downList ul {
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 5px;
+}
+.downList ul li {
+  border-bottom: 1px solid #ccc;
+}
+.downList ul li h3 {
+  font-size: 16px;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  font-weight: 600;
+  border-right: 1px solid #ccc;
+  padding-left: 12px;
+  background: url("../images/arrow1.gif") right no-repeat;
+}
+.downList ul li .arrow2 {
+  background: url("../images/arrow2.gif") right no-repeat;
+}
+.downList ul li .list_none {
+  background-color: #f9f9f9;
+  position: relative;
+  width: 100%;
+  display: none;
+}
+.downList ul li .list_none a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.downList ul li .list_none span {
+  display: inline-block;
+  width: 33.3%;
+  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-right: 1px solid #c4c4c4;
+  border-bottom: 1px solid #c4c4c4;
+  float: left;
+  color: #333;
+}
+.floot {
+  margin-top: -10px;
+}
